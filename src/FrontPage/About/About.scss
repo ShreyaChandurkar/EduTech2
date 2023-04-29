@@ -1,0 +1,90 @@
+.about{
+    .secContainer{
+        .title{
+            // color: black;
+            font-family: 'sans-serif';
+            color: rgb(107, 13, 107);
+            line-height: 1.5rem;
+            padding-bottom: 2rem;
+            text-align: center;
+            font-size: 1.5rem;
+        }
+
+        .mainContent{
+            gap: 1rem;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            .singleItem{
+                text-align: center;
+                
+                img{
+                    background: rgba(247, 144, 54, 0.265);
+                    width: 150px;
+                    border-radius: 50%;
+                    // padding: 1rem;
+                }
+
+                h3{
+                    font-weight: 700;
+                    color: black;
+                    padding: .5rem;
+                }
+
+                p{
+                    font-size: 13px;
+                    font-weight: 500;
+                    padding-bottom: .5rem;
+                    color: grey;
+                }
+            }
+        }
+
+        .imgCard{
+            margin-left: 20%;
+            margin-top: 2rem;
+            // background: linear-gradient(rgba(33,33,33,0.522), rgba(33,33,33,0.522));
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+
+            .cardContent{
+                gap: 2rem;
+                padding: 2rem 1rem;
+
+                .cardText{
+                    h2{
+                        font-family: 'sans-serif';
+                        color: rgb(107, 13, 107);
+                        font-weight: 600;
+                        padding-bottom: 1rem;
+                    }
+
+                    p{
+                        color: black;
+                        opacity: .7;
+                        font-size: 15px;
+                        font-weight: 400;
+                        letter-spacing: 1px;
+                    }
+                }
+            }
+
+            .cardImg{
+                border: 2px white;
+                height: 200px;
+                width: 100%;
+                border-radius: 10px;
+                overflow: hidden;
+
+                img{
+                    height: 100%;
+                    margin-left: 30%;
+                    width: 50%;
+                    object-fit: cover;
+                }
+            }
+        
+        }
+    }
+}

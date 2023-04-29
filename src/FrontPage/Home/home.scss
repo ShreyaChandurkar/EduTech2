@@ -1,0 +1,76 @@
+// .btn{
+//   font-weight: 500;
+//     font-size: 16px;
+//     letter-spacing: 1px;
+//     display: inline-block;
+//     padding: 10px 30px;
+//     border-radius: 50px;
+//     transition: 0.5s;
+//     color: brown;
+//     border: 2px solid brown;
+//     text-decoration: none;
+
+//     .btn:hover{
+//       background: brown;
+//       color: #fff;
+//     }
+
+// }
+
+.home{
+  height: 80vh;
+  background: linear-gradient(rgba(33,33,33,0.522), rgba(33,33,33,0.522)),
+  url(https://imageio.forbes.com/specials-images/imageserve/5e020def4e2917000783d582/0x0.jpg?format=jpg&width=1200);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  position: relative;
+
+
+.secContainer{
+  .homeText{
+    text-align: center;
+  }
+
+  .title{
+    color: white;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 2.5rem;
+  }
+  .subTitle{
+    color: white;
+    opacity: .9;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 1rem 0;
+    max-width: 70%;
+    text-align: center;
+    margin: auto;
+  }
+
+  // .btn{
+  //   padding: .6rem 1.5rem ;
+  //   font-weight: 500;
+  //   font-size: 16px;
+  //   letter-spacing: 1px;
+  //   display: inline-block;
+  //   padding: 10px 30px;
+  //   border-radius: 50px;
+  //   transition: 0.5s;
+  //   color: brown;
+  //   border: 2px solid brown;
+  //   text-decoration: none;
+
+  //   .btn:hover{
+  //     background: brown;
+  //     color: #6d1212;
+  //   }
+  // }
+  }
+}
+

@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "CustomFont";
+  }
+
+
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-image: url(https://lenstax.com/auth/app-assets/images/pages/faq.jpg);
+    background-size: cover;
+    background-position: center; */
+  }
+
+  h1{
+    color: rgb(66, 11, 66);
+    text-align: center;
+
+  }
+
+  .form { 
+    width: 60%;
+    margin-top: 20%;
+    margin-left: 20%;
+    padding: 30px;
+    border: 1px solid #ccc;
+    font-size: small;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+  }
+
+
+/* .form{
+    margin-top: 100px;
+    margin-left: 50px;
+    width: 60%;
+    padding: 20px;
+    font-size: small;
+    height: min-content;
+    border-radius: 15px;
+    color: black;
+    background-color: rgb(246, 246, 246);
+} */
+
+
